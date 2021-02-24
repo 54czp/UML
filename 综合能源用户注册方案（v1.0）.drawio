@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T08:13:28.678Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="lSmcvT7XbQd4USM47NOF" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-24T08:14:33.187Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="1n9KQVGpwDahdqoeymZT" version="14.2.9" type="github">
   <diagram id="gUW_gxuXwpB0K3utl5sX" name="Page-1">
     <mxGraphModel dx="1108" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -491,6 +491,9 @@
         </mxCell>
         <mxCell id="87xFtUxxgs9xbds1OP3f-103" value="分户&lt;br&gt;C" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1810" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aW6AQjTK__uvghRcb7WH-1" value="&lt;a class=&quot;js-navigation-open link-gray-dark&quot; title=&quot;综合能源用户注册方案（v1.0）.drawio&quot; href=&quot;https://github.com/54czp/UML/blob/main/%E7%BB%BC%E5%90%88%E8%83%BD%E6%BA%90%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E6%96%B9%E6%A1%88%EF%BC%88v1.0%EF%BC%89.drawio&quot; style=&quot;box-sizing: border-box ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;综合能源用户注册方案（v1.0）&lt;/font&gt;&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="30" width="350" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
