@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T08:29:26.887Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="KSe_2umQazeK2eVpo43E" version="14.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-01T00:57:42.100Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="om85YO-qQ5tQuQsbb0MW" version="14.4.2" type="github" pages="2">
   <diagram id="gUW_gxuXwpB0K3utl5sX" name="Page-1">
-    <mxGraphModel dx="1108" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -227,6 +227,9 @@
         <mxCell id="UgdYV5Sys4c05eqZEx1u-145" value="钱包是否&lt;br&gt;存在主户？" style="rhombus;whiteSpace=wrap;html=1;" parent="UgdYV5Sys4c05eqZEx1u-32" vertex="1">
           <mxGeometry x="90" y="1390" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="UgdYV5Sys4c05eqZEx1u-32" source="UgdYV5Sys4c05eqZEx1u-148" target="b-ZQdXZkgw-ZfgGD9ODn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UgdYV5Sys4c05eqZEx1u-148" value="1.创建用户与单位关系&lt;br&gt;（往AbpUser表插入数据，&lt;br&gt;TenantId+当前用户数据）&lt;br&gt;2.绑定“用户”角色&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="UgdYV5Sys4c05eqZEx1u-32" vertex="1">
           <mxGeometry x="35" y="1590" width="208.75" height="120" as="geometry" />
         </mxCell>
@@ -240,7 +243,7 @@
           <mxGeometry x="210" y="220" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="87xFtUxxgs9xbds1OP3f-40" value="&lt;br&gt;3.创建用户与主户关系&lt;br&gt;（往关系表插入数据：&lt;br&gt;分户id、主户id、钱包id）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="UgdYV5Sys4c05eqZEx1u-32" vertex="1">
-          <mxGeometry x="38.91" y="2070" width="202.18" height="80" as="geometry" />
+          <mxGeometry x="39.36" y="2388" width="202.18" height="80" as="geometry" />
         </mxCell>
         <mxCell id="87xFtUxxgs9xbds1OP3f-42" value="保存钱包信息：&lt;br&gt;单位、设备（多个）、&lt;br&gt;计费方案" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="UgdYV5Sys4c05eqZEx1u-32" vertex="1">
           <mxGeometry x="60" y="770" width="160" height="80" as="geometry" />
@@ -248,23 +251,36 @@
         <mxCell id="87xFtUxxgs9xbds1OP3f-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UgdYV5Sys4c05eqZEx1u-32" source="87xFtUxxgs9xbds1OP3f-44" target="87xFtUxxgs9xbds1OP3f-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="87xFtUxxgs9xbds1OP3f-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UgdYV5Sys4c05eqZEx1u-32" source="87xFtUxxgs9xbds1OP3f-44" target="87xFtUxxgs9xbds1OP3f-40" edge="1">
+        <mxCell id="87xFtUxxgs9xbds1OP3f-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UgdYV5Sys4c05eqZEx1u-32" source="87xFtUxxgs9xbds1OP3f-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="140" y="1880" />
-              <mxPoint x="28" y="1880" />
-              <mxPoint x="28" y="2110" />
+              <mxPoint x="140.45" y="2200" />
+              <mxPoint x="28.45" y="2200" />
+              <mxPoint x="28.45" y="2430" />
             </Array>
+            <mxPoint x="39.35999999999986" y="2430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="87xFtUxxgs9xbds1OP3f-44" value="&lt;span&gt;当前用户是否&lt;br&gt;已经绑定钱包&lt;br&gt;所属单位？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="UgdYV5Sys4c05eqZEx1u-32" vertex="1">
-          <mxGeometry x="90" y="1760" width="100" height="110" as="geometry" />
+          <mxGeometry x="90.45" y="2080" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="87xFtUxxgs9xbds1OP3f-45" value="1.创建用户与单位关系&lt;br&gt;（往AbpUser表插入数据，&lt;br&gt;TenantId+当前用户数据）&lt;br&gt;2.绑定“用户”角色&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="UgdYV5Sys4c05eqZEx1u-32" vertex="1">
-          <mxGeometry x="42.81" y="1920" width="194.37" height="100" as="geometry" />
+          <mxGeometry x="43.260000000000005" y="2240" width="194.37" height="100" as="geometry" />
         </mxCell>
         <mxCell id="87xFtUxxgs9xbds1OP3f-47" value="未绑定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="UgdYV5Sys4c05eqZEx1u-32" vertex="1">
-          <mxGeometry x="145" y="1890" width="50" height="20" as="geometry" />
+          <mxGeometry x="145.45" y="2210" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UgdYV5Sys4c05eqZEx1u-32" source="b-ZQdXZkgw-ZfgGD9ODn-1" target="b-ZQdXZkgw-ZfgGD9ODn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-1" value="&lt;span&gt;单位钱包是否存在&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="UgdYV5Sys4c05eqZEx1u-32">
+          <mxGeometry x="100" y="1750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-3" value="4.创建用户在&lt;br&gt;指定单位的钱包" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="UgdYV5Sys4c05eqZEx1u-32">
+          <mxGeometry x="80" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-5" value="5.二维码账户&lt;br&gt;绑定钱包id" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="UgdYV5Sys4c05eqZEx1u-32">
+          <mxGeometry x="75" y="1950" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UgdYV5Sys4c05eqZEx1u-31" value="后台" style="swimlane;html=1;startSize=20;" parent="UgdYV5Sys4c05eqZEx1u-29" vertex="1">
           <mxGeometry x="610" width="240" height="2500" as="geometry" />
@@ -299,10 +315,10 @@
         <mxCell id="87xFtUxxgs9xbds1OP3f-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="UgdYV5Sys4c05eqZEx1u-31" source="UgdYV5Sys4c05eqZEx1u-123" target="UgdYV5Sys4c05eqZEx1u-127" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UgdYV5Sys4c05eqZEx1u-123" value="创建账户（钱包）" style="whiteSpace=wrap;html=1;" parent="UgdYV5Sys4c05eqZEx1u-31" vertex="1">
+        <mxCell id="UgdYV5Sys4c05eqZEx1u-123" value="创建账户（未绑定钱包）" style="whiteSpace=wrap;html=1;" parent="UgdYV5Sys4c05eqZEx1u-31" vertex="1">
           <mxGeometry x="60" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UgdYV5Sys4c05eqZEx1u-127" value="生成钱包二维码" style="whiteSpace=wrap;html=1;" parent="UgdYV5Sys4c05eqZEx1u-31" vertex="1">
+        <mxCell id="UgdYV5Sys4c05eqZEx1u-127" value="生成账户二维码" style="whiteSpace=wrap;html=1;" parent="UgdYV5Sys4c05eqZEx1u-31" vertex="1">
           <mxGeometry x="60" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="87xFtUxxgs9xbds1OP3f-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UgdYV5Sys4c05eqZEx1u-29" source="UgdYV5Sys4c05eqZEx1u-123" target="87xFtUxxgs9xbds1OP3f-42" edge="1">
@@ -312,8 +328,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="373" y="1790" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="170" y="1730" />
-              <mxPoint x="470" y="1730" />
+              <mxPoint x="170" y="2050" />
+              <mxPoint x="471" y="2050" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -359,7 +375,7 @@
           <mxGeometry x="645" y="1620" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="87xFtUxxgs9xbds1OP3f-49" value="已绑定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="535" y="1920" width="50" height="20" as="geometry" />
+          <mxGeometry x="535.45" y="2240" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="87xFtUxxgs9xbds1OP3f-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="87xFtUxxgs9xbds1OP3f-63" target="87xFtUxxgs9xbds1OP3f-67" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -492,7 +508,7 @@
         <mxCell id="87xFtUxxgs9xbds1OP3f-103" value="分户&lt;br&gt;C" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1810" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aW6AQjTK__uvghRcb7WH-1" value="&lt;a class=&quot;js-navigation-open link-gray-dark&quot; title=&quot;综合能源用户注册方案（v1.0）.drawio&quot; href=&quot;https://github.com/54czp/UML/blob/main/%E7%BB%BC%E5%90%88%E8%83%BD%E6%BA%90%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E6%96%B9%E6%A1%88%EF%BC%88v1.0%EF%BC%89.drawio&quot; style=&quot;box-sizing: border-box ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;综合能源用户注册方案（v1.0）&lt;/font&gt;&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="aW6AQjTK__uvghRcb7WH-1" value="&lt;a class=&quot;js-navigation-open link-gray-dark&quot; title=&quot;综合能源用户注册方案（v1.0）.drawio&quot; href=&quot;https://github.com/54czp/UML/blob/main/%E7%BB%BC%E5%90%88%E8%83%BD%E6%BA%90%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E6%96%B9%E6%A1%88%EF%BC%88v1.0%EF%BC%89.drawio&quot; style=&quot;box-sizing: border-box ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;综合能源用户注册方案（v1.0）&lt;/font&gt;&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="455" y="30" width="350" height="20" as="geometry" />
         </mxCell>
       </root>
