@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T01:41:10.067Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="KG-pINhDOaZX08lYkiNQ" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-01T02:57:35.803Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="g4tvPyLt-XdNG0PhEGS-" version="14.4.2" type="github" pages="2">
   <diagram id="gUW_gxuXwpB0K3utl5sX" name="Page-1">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -513,6 +513,24 @@
         </mxCell>
         <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-19" value="&lt;span&gt;账户信息（聚合对象）：&lt;br&gt;单位id、&lt;br&gt;设备id、&lt;br&gt;主户id、&lt;br&gt;账户id、&lt;br&gt;计费方案id（待确定）&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="1278.5" y="515" width="231.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-20" value="绑定计费方案" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1334" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-21" value="绑定设备" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1234" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-22" value="用户绑定" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1534" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-24" value="生成二维码" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1433" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-25" value="创建账户" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-26" value="抄低度开户" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1629" y="750" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
