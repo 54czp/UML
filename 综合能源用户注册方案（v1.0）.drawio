@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T01:09:44.372Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="oIBbaczBSnCxHiyRlF2o" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-01T01:41:10.067Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="KG-pINhDOaZX08lYkiNQ" version="14.4.2" type="github" pages="2">
   <diagram id="gUW_gxuXwpB0K3utl5sX" name="Page-1">
     <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -511,8 +511,8 @@
         <mxCell id="aW6AQjTK__uvghRcb7WH-1" value="&lt;a class=&quot;js-navigation-open link-gray-dark&quot; title=&quot;综合能源用户注册方案（v1.0）.drawio&quot; href=&quot;https://github.com/54czp/UML/blob/main/%E7%BB%BC%E5%90%88%E8%83%BD%E6%BA%90%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E6%96%B9%E6%A1%88%EF%BC%88v1.0%EF%BC%89.drawio&quot; style=&quot;box-sizing: border-box ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;综合能源用户注册方案（v1.0）&lt;/font&gt;&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="455" y="30" width="350" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-19" value="&lt;span&gt;账户信息：&lt;br&gt;单位id、&lt;br&gt;设备id、&lt;br&gt;用户id、&lt;br&gt;账户id、&lt;br&gt;计费方案id（待确定）&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="1278.5" y="515" width="194.75" height="140" as="geometry" />
+        <mxCell id="b-ZQdXZkgw-ZfgGD9ODn-19" value="&lt;span&gt;账户信息（聚合对象）：&lt;br&gt;单位id、&lt;br&gt;设备id、&lt;br&gt;主户id、&lt;br&gt;账户id、&lt;br&gt;计费方案id（待确定）&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1278.5" y="515" width="231.5" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
